@@ -49,7 +49,7 @@ public class ScrollTextView extends SurfaceView implements SurfaceHolder.Callbac
     public boolean isHorizontal = true;     // horizontal｜V
     private int speed = 1;                  // scroll-speed
     private String text = "";               // scroll text
-    private float textSize = 15f;           // text size
+    private float textSize = 35f;           // text size
     private int textColor;
 
     private int needScrollTimes = Integer.MAX_VALUE;      //scroll times
